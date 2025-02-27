@@ -34,9 +34,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @WebMvcTest(ManagerController.class)
 class ManagerControllerTest {
-    @MockBean
-    private JwtUtil jwtUtil;
-
     @Autowired
     private MockMvc mockMvc;
 
